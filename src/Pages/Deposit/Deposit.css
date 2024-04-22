@@ -1,0 +1,93 @@
+.deposit-b1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.logo-deposit{
+    height: 50px;
+    width: 50vw;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.deposit-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #192C52;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.deposit-Header{
+    color: white;
+    font-weight: bold;
+}
+
+.deposit-d2{
+    width: 100vw;
+    padding: 1.5rem;
+}
+
+.deposit-d1{
+    max-width: 500px;
+    padding: 3rem;
+    background-image: radial-gradient(circle at center, #4761BF,#060D23);
+    border: 2px solid #35C0C9;
+    border-radius: 50px;
+}
+
+.deposit-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.deposit-button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.deposit-label{
+    color: aliceblue;
+    font-size: small;
+    text-align: center;
+}
+
+.social-deposit{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-button{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.social-button:hover{
+    background-color: aqua;
+}
+
+.deposit-forgot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+}

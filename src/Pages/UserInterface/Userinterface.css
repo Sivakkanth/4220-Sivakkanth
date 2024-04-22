@@ -1,0 +1,447 @@
+@media screen and (max-width: 1800px){
+    .main-head{
+        font-size: 3.5vw;
+        width: 60vw;
+    }
+    .submain-head{
+        font-size: 2vw;
+        width: 60vw;
+    }
+    .main-button{
+        font-size: 2vw;
+        width: 56vw;  
+        height: 50px;
+        line-height: 50px;
+        margin: 1vw 2vw 0.5vw 2vw;
+        border-radius: 15px;
+    }
+    .userinterface-information-container1{
+        align-items: flex-start;
+    }
+    .userinterface-cash-informations{
+        justify-content: space-evenly;
+        padding: 30px 10px;
+    }
+    .Important-of-Website1{
+        font-size:xx-large;
+    }
+    .Important-Feature1{
+        font-size:xx-large;
+    }
+    .Image-Feature{
+        width: 400px;
+    }
+    .SignUp-Button-Feature{
+        margin: 2vw;
+        font-size: 2vw;
+        width: 56vw;  
+        height: 50px;
+        line-height: 50px;
+        border-radius: 15px;
+    }
+    .video-player {
+        width: 500px; /* Responsive video width */
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .main-head{
+        font-size: 6vw;
+        width: 70vw;
+    }
+    .submain-head{
+        font-size: 3vw;
+        width: 70vw;
+    }
+    .main-button{
+        font-size: 3vw;
+        width: 66vw;  
+        height: 50px;
+        line-height: 50px;
+        margin: 2vw;
+        border-radius: 15px;
+    }
+    .userinterface-information-container1{
+        align-items: flex-start;
+    }
+    .userinterface-cash-informations{
+        justify-content: space-evenly;
+        padding: 20px 10px;
+    }
+    .userinterface-cash-perinformations{
+        padding: 10px;
+        align-items: flex-start;
+    }
+    .Important-of-Website1{
+        font-size:xx-large;
+    }
+    .Important-Feature1{
+        font-size:xx-large;
+    }
+    .Image-Feature{
+        width: 400px;
+    }
+    .SignUp-Button-Feature{
+        font-size: 3vw;
+        width: 66vw;  
+        height: 50px;
+        line-height: 50px;
+        margin: 2vw;
+        border-radius: 15px;
+    }
+    .video-player {
+        width: 500px; /* Responsive video width */
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 435px){
+    .main-head{
+        font-size: 8.5vw;
+        width: 100vw;
+        text-align: center;
+    }
+    .submain-head{
+        font-size: 5vw;
+        width: 100vw;
+        text-align: center;
+    }
+    .main-button{
+        font-size: 4vw;
+        width: 70vw; 
+        height: 40px;
+        line-height: 40px;
+        margin: 15vw 15vw 5vw 15vw;
+        border-radius: 10px;
+        border: 2px solid #666805;
+    }
+    .userinterface-information-container1{
+        align-items: center;
+    }
+    .userinterface-cash-informations{
+        justify-content: center;
+        padding: 20px 30px;
+    }
+    .userinterface-cash-perinformations{
+        padding: 10px;
+        align-items: center;
+    }
+    .Important-of-Website1{
+        font-size:larger;
+    }
+    .Important-Feature1{
+        font-size:larger;
+    }
+    .Image-Feature{
+        width: 200px;
+    }
+    .SignUp-Button-Feature{
+        font-size: 4vw;
+        width: 70vw; 
+        height: 40px;
+        line-height: 40px;
+        margin: 15vw 15vw 5vw 15vw;
+        border-radius: 10px;
+        border: 2px solid #666805;
+    }
+    .video-player {
+        width: 250px; /* Responsive video width */
+        height: auto;
+    }
+}
+
+.userinterface-class{
+    width: 100vw;
+    height: auto;
+}
+
+.userinterface-information-container{
+    width: 100vw;
+    height: 80vh;
+    background-image: url("../../photos/Interfaceimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.userinterface-information-container1{
+    width: 100vw;
+    height: 80vh;
+    background: linear-gradient(to right, rgba(2, 38, 72, 0.87), rgba(2, 64, 53, 0.1));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-head{
+    font-weight: bold;
+    color: #E7FFB4;
+    padding: 2vw;
+    line-height: 1.8cap;
+}
+
+.submain-head{
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 0px 2vw;
+    line-height: 1.8cap;
+}
+
+.main-button{
+    background-color: #3AFBE4;
+    color: #666805;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-button:hover{
+    background-color: white;
+    color:black;
+}
+
+.userinterface-icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    color: white;
+    padding: 10px 2vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.userinterface-cash-informations{
+    background-color: #002C54;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.userinterface-cash-perinformations{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding: 10px;
+}
+
+.cashInformation1{
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0px;
+    padding: 1px;
+}
+
+.cashInformation2{
+    color: rgba(255, 255, 255, 0.63);
+    font-style: italic;
+    margin-bottom: 0px;
+    padding: 1px;
+}
+
+.Important-of-Website{
+    background-color: #D9E6EB;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    padding: 30px;
+}
+
+.Important-of-Website1{
+    font-weight: bold;
+    text-align: center;
+}
+
+.Website-Uses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0px;
+    max-width: 450px;
+}
+
+.Website-Uses1{
+    color: black;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    padding: 1px;
+}
+
+.Important-of-Website2{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:baseline;
+    justify-content: space-evenly;
+}
+
+.Website-Uses2{
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 0px;
+    padding: 1px 30px;
+    text-align: center;
+}
+
+.Important-Feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #002546;
+    padding: 30px 20px;
+}
+
+.Important-Feature1{
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.Important-Feature2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.Image-Feature-Discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+.Important-Feature3{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.SignUp-Button-Feature{
+    background-color: #3AFBE4;
+    color: #666805;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.SignUp-Button-Feature:hover{
+    background-color: white;
+    color:black;
+}
+
+.video-feature{
+    background-color: rgba(10, 0, 128, 0.65);
+    width: 100vw;
+}
+
+.video-feature1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.Video-Feature-Discription{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    padding: 20px;
+}
+
+.video-player {
+    border: 1px solid #ccc; /* Example border */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Example box shadow */
+    border-radius: 10px;
+  }
+
+.video-description{
+    color: #004589;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.Steps-Details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+    padding: 20px;
+}
+
+.ChooseBank{
+    width: 100vw;
+    height: 100%;
+    color: #000000;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Withdraw-Method{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #A4DCFC;
+    padding: 30px 20px;
+}
+
+.Withdraw-Method1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px 20px;
+    width: 100vw;
+}
+
+.Withdraw-Method2{
+    object-fit: cover;
+    width: 30%;
+    height: 100%;
+    border-radius: 0.5rem;
+    max-width: 250px;
+    aspect-ratio: 16/9;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.Userinterface-Footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #031556;
+}
+
+.Footer-Name{
+    color: white;
+    margin: 0px;
+}

@@ -1,0 +1,220 @@
+@media screen and (max-width: 1800px){
+  .logo-header{
+    padding: 15px;
+    height: 100%;
+    width: 300px;
+    margin-left: 10px;
+  }
+  .main-header {
+    height: 5rem;
+  }
+  .signin-button{
+    font-size: medium;
+    margin: 0px 25px;
+  }
+  .signup-button{
+    font-size: medium;
+    margin: 0px 25px;
+  }
+  .translator{
+    font-size: medium;
+    margin: 0px 25px;
+  }
+  .menu-button{
+    visibility: hidden;
+  }
+  .menu-buttons{
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .logo-header{
+    padding: 10px;
+    height: 100%;
+    width: 200px;
+    margin-left: 10px;
+  }
+  .main-header {
+    height: 4rem;
+  }
+  .signin-button{
+    font-size: small;
+    margin: 0px 10px;
+  }
+  .signup-button{
+    font-size: small;
+    margin: 0px 10px;
+  }
+  .translator{
+    font-size: small;
+    margin: 0px 10px;
+  }
+  .menu-button{
+    visibility: hidden;
+  }
+  .menu-buttons{
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 430px){
+  .logo-header{
+    padding: 10px;
+    height: 100%;
+    width: 130px;
+    margin-left: 2px;
+  }
+  .main-header {
+    height: 3rem;
+  }
+  .buttons{
+    visibility: hidden;
+  }
+  .menu-button{
+    visibility: visible;
+  }
+  .signin-button{
+    font-size: 0px;
+    margin: 0px;
+  }
+  .signup-button{
+    font-size: px;
+    margin: 0px;
+  }
+  .translator{
+    font-size: 0px;
+    margin: 0px;
+  }
+  .menu-buttons{
+    visibility: visible;
+  }
+}
+
+.main-header {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  background-color: white;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+}
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  background-color: transparent;
+  z-index: 0;
+  position: relative;
+  box-shadow: 2px 2px 2px 2px solid gray;
+}
+
+.signin-button{
+  background-color: rgba(197, 219, 219, 0.27);
+  color: black;
+  border-radius: 15px;
+  border: 1px solid black;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.signin-button:hover{
+  background-color: blue;
+  color: aliceblue;
+}
+
+.signup-button{
+  background-color: #144573;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid black;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.signup-button:hover{
+  background-color: blue;
+  color: aliceblue;
+}
+
+.menu-buttons{
+  display: flex;
+  flex-direction: column;
+  align-items:stretch;
+  justify-content: stretch;
+  z-index: 2;
+  position: absolute;
+  background-color: white;
+  height: 120px;
+  width: 120px;
+  top: 0;
+  right: 0;
+}
+
+.menu-button{
+  z-index: 1;
+  position: absolute;
+  padding-right: 2px;
+  top: 0.5;
+  right: 0;
+}
+
+.translator{
+  background-color: #144573;
+  color: white;
+  border-radius: 15px;
+  border: 1px solid black;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.translator option{
+  background-color: white;
+  color: #144573;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.translator option:hover{
+  background-color: aliceblue;
+  color: blue;
+  cursor: pointer;
+}
+
+.closebutton{
+  position: absolute;
+  margin-right: 5px;
+  top: 0;
+  right: 0;
+  margin-top: 10px;
+}
+
+.signbutton{
+  border: none;
+  cursor: pointer;
+  background-color: #144573;
+  color: white;
+  border-top: 1px solid black;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.signbutton:hover{
+  color: black;
+  background-color: aliceblue;
+}
+
+.menubutt{
+  display: flex;
+  flex-direction: column;
+  margin-top: 47px;
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  padding-right: 5px;
+}

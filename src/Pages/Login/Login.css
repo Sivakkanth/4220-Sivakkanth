@@ -1,0 +1,90 @@
+.login-b1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    justify-content: flex-start;
+    padding-top: 10px;
+}
+
+.logo-login{
+    height: 50px;
+    width: 50vw;
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: #192C52;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.login-Header{
+    color: white;
+    font-weight: bold;
+}
+
+.login-d1{
+    width: 80%;
+    max-width: 500px;
+    height: 70vh;
+    padding: 3rem;
+    background-image: radial-gradient(circle at center, #4761BF,#060D23);
+    border: 2px solid #35C0C9;
+    border-radius: 50px;
+}
+
+.login-main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.login-button{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.login-label{
+    color: aliceblue;
+    font-size: small;
+    text-align: center;
+}
+
+.social-login{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.social-button{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+}
+
+.social-button:hover{
+    background-color: aqua;
+}
+
+.login-forgot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+}
